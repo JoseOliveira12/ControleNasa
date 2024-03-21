@@ -1,3 +1,15 @@
 body{
-background-color: blueviolet;
+   margin: 0; 
 }
+.terra{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("terra.jpg");
+    border: 10px solid #efefef;
+    background: url("terra.jpg") center center no-repeat;
+}
+.padrao{
+    background: url("padrao.png") center center repeat;
+    height: 100%;
+}
+
