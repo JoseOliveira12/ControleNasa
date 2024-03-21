@@ -1,15 +1,40 @@
 body{
    margin: 0; 
+   font-family: Arial, Helvetica, sans-serif;
 }
 .terra{
     height: 100%;
     background-repeat: no-repeat;
     background-image: url("terra.jpg");
     border: 10px solid #efefef;
+    box-sizing: border-box;
     background: url("terra.jpg") center center no-repeat;
 }
 .padrao{
     background: url("padrao.png") center center repeat;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
-
+.numero{
+    font-size: 600px;
+    color: white;
+    text-shadow: 0px 0px 20px #262c3c;
+}
+.download{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    right: 0;
+    padding: 10px 18px;
+    top: 0;
+    border: 1px solid white;
+    text-decoration: none;
+    opacity: .75;
+    transition: background .3s;
+}
+ .download:hover{
+    background: #333;
+ }
