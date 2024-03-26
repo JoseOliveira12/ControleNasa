@@ -38,3 +38,24 @@ body{
  .download:hover{
     background: #333;
  }
+ .lista{
+    display: flex;
+    justify-content: center;
+    width:100%;
+ }
+ .astronalta{
+    width: 850px;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nome{
+    font-size: 40px;
+    padding-bottom: 12px;
+    font-weight: normal;
+ }
+ .dias{
+    font-size: 40px;
+    padding-bottom: 6px;
+    font-weight: normal;
+ }
