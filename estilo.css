@@ -39,23 +39,78 @@ body{
     background: #333;
  }
  .lista{
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    align-items: center;
     width:100%;
  }
  .astronalta{
-    width: 850px;
-    background: yellow;
     display: flex;
     justify-content: space-between;
+    padding: 72px 0;
+    border-bottom: 1px dashed #b3b3b3;
+ }
+ .astronalta:last-child{
+    margin-bottom: 227px;
  }
  .nome{
     font-size: 40px;
     padding-bottom: 12px;
     font-weight: normal;
+    margin: 0;
  }
  .dias{
     font-size: 40px;
     padding-bottom: 6px;
     font-weight: normal;
+    margin: 0;
  }
+ .bandeira{
+    width: 25px;
+    height: 13px;
+    margin-right: 20px;
+ }
+ .cargo{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;
+    padding-top: 0px;
+    margin: 0;
+ }
+ .infos{
+    display: flex;
+    align-items: center;
+ }
+ .dias-no-espaco{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    padding-top: 3px;
+    margin: 0;
+ }
+ .dias-direita{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+ }
+.prefinal{
+    background: url("cosmos.jpg") center center no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.astronalta, .conteudo{
+    width: 850px;
+    background: yellow;
+}
+.celular{
+    margin-top: -170px;
+}
+.conteudo{
+display: flex;
+}
+.nomefinal{
+    margin-left: 60px;
+}
