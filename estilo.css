@@ -9,6 +9,7 @@ body{
     border: 10px solid #efefef;
     box-sizing: border-box;
     background: url("terra.jpg") center center no-repeat;
+    background-size: cover;
 }
 .padrao{
     background: url("padrao.png") center center repeat;
